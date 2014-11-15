@@ -13,6 +13,7 @@ import javax.mail.internet.MimeMessage;
 
 public class EmailSender {
 
+    //Go Patriots!!!
     static final String from = "princetonhack";
     static Session session;
 
