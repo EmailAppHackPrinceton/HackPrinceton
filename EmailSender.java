@@ -70,7 +70,7 @@ public class EmailSender {
 
     public static void main(String [] args) {
         ArrayList<Family> arrayOfFamilyWithOutEmails = new ArrayList<Family>();
-        ExcelReader.starter();
+        //ExcelReader.starter();
         for(int i = 0; i < ExcelReader.arrayOfFamily.size(); i++) {
             Family currentFamily = ExcelReader.arrayOfFamily.get(i);
             ArrayList<Person> arrayOfPeopleWithEmails = currentFamily.getArrayOfPeopleWithEmails();
