@@ -1,4 +1,4 @@
-
+//Vince's comment
 public class Person {
 	//testing
     private final double amountDue;
